@@ -1,0 +1,72 @@
+{
+  "VSF_SETTINGS": [
+    {
+      "id": "DraftType",
+      "type": "radio",
+      "text": "Draft Type",
+      "values": [
+        { "id": "snake", "value": "Snake" },
+        { "id": "auction", "value": "Auction" }
+      ],
+      "readOnly": false
+    },
+    {
+      "id": "Scoring",
+      "type": "radio",
+      "text": "Scoring",
+      "values": [
+        { "id": "ppr", "value": "PPR" },
+        { "id": "standard", "value": "Standard" }
+      ],
+      "readOnly": false
+    },
+    {
+      "id": "MaxTeams",
+      "type": "dropdown",
+      "text": "# of Teams",
+      "values": [       
+         { "id": "10", "value": "10" },
+         { "id": "12", "value": "12" },
+         { "id": "14", "value": "14" }
+      ],
+      "readOnly": false
+    },
+    {
+      "id": "WaiverType",
+      "type": "input",
+      "text": "Waiver Type",
+      "value": "Rolling Continous",
+      "readOnly": true
+    },
+    {
+      "id": "RosterPositions",
+      "type": "other",
+      "text": "Roster Positions",
+      "singleValues": [
+        "QB",
+        "RB",
+        "RB",
+        "WR",
+        "WR",
+        "TE",
+        "W/R/T",
+        "K",
+        "DEF",
+        "BN",
+        "BN",
+        "BN",
+        "BN",
+        "BN",
+        "BN"
+      ],
+      "readOnly": true
+    },
+    {
+      "id": "TradeDeadline",
+      "type": "input",
+      "text": "Trade Dead Line",
+      "value": "11/10/2018 12:00:00 am",
+      "readOnly": true
+    }
+  ]
+}

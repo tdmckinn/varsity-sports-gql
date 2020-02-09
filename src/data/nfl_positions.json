@@ -1,0 +1,28 @@
+{
+  "NFL_POSITONS": [
+    {
+      "id": 1,
+      "name": "QB"
+    },
+    {
+      "id": 2,
+      "name": "RB"
+    },
+    {
+      "id": 3,
+      "name": "WR"
+    },
+    {
+      "id": 4,
+      "name": "TE"
+    },
+    {
+      "id": 5,
+      "name": "K"
+    },
+    {
+      "id": 6,
+      "name": "DST"
+    }
+  ]
+}

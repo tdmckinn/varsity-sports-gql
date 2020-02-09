@@ -1,0 +1,18 @@
+{
+  "VSF_USERS": [
+    {
+      "id": 1,
+      "Name": "John Doe",
+      "Avatar": null,
+      "Teams": [{
+        "id": 1
+      }],
+      "Leagues": [{ 
+        "id": 1
+      }],
+      "TimeZone": "America/Charlotte",
+      "Email": "johndoe@gmail.com",
+      "DateCreated": "2018-08-15 00:08:00"
+    }
+  ]
+}

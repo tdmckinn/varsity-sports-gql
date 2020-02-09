@@ -1,0 +1,164 @@
+{
+  "NFL_TEAMS": [
+    {
+      "Team": "ARI",
+      "FullName": "Arizona Cardinals",
+      "ShortName": "Arizona"
+    },
+    {
+      "Team": "ATL",
+      "FullName": "Atlanta Falcons",
+      "ShortName": "Atlanta"
+    },
+    {
+      "Team": "BAL",
+      "FullName": "Baltimore Ravens",
+      "ShortName": "Baltimore"
+    },
+    {
+      "Team": "BUF",
+      "FullName": "Buffalo Bills",
+      "ShortName": "Buffalo"
+    },
+    {
+      "Team": "CAR",
+      "FullName": "Carolina Panthers",
+      "ShortName": "Carolina"
+    },
+    {
+      "Team": "CHI",
+      "FullName": "Chicago Bears",
+      "ShortName": "Chicago"
+    },
+    {
+      "Team": "CIN",
+      "FullName": "Cincinnati Bengals",
+      "ShortName": "Cincinnati"
+    },
+    {
+      "Team": "CLE",
+      "FullName": "Cleveland Browns",
+      "ShortName": "Cleveland"
+    },
+    {
+      "Team": "DAL",
+      "FullName": "Dallas Cowboys",
+      "ShortName": "Dallas"
+    },
+    {
+      "Team": "DEN",
+      "FullName": "Denver Broncos",
+      "ShortName": "Denver"
+    },
+    {
+      "Team": "DET",
+      "FullName": "Detroit Lions",
+      "ShortName": "Detroit"
+    },
+    {
+      "Team": "GB",
+      "FullName": "Green Bay Packers",
+      "ShortName": "Green Bay"
+    },
+    {
+      "Team": "HOU",
+      "FullName": "Houston Texans",
+      "ShortName": "Houston"
+    },
+    {
+      "Team": "IND",
+      "FullName": "Indianapolis Colts",
+      "ShortName": "Indianapolis"
+    },
+    {
+      "Team": "JAC",
+      "FullName": "Jacksonville Jaguars",
+      "ShortName": "Jacksonville"
+    },
+    {
+      "Team": "KC",
+      "FullName": "Kansas City Chiefs",
+      "ShortName": "Kansas City"
+    },
+    {
+      "Team": "MIA",
+      "FullName": "Miami Dolphins",
+      "ShortName": "Miami"
+    },
+    {
+      "Team": "MIN",
+      "FullName": "Minnesota Vikings",
+      "ShortName": "Minnesota"
+    },
+    {
+      "Team": "NYG",
+      "FullName": "N.Y. Giants",
+      "ShortName": "N.Y. Giants"
+    },
+    {
+      "Team": "NYJ",
+      "FullName": "N.Y. Jets",
+      "ShortName": "N.Y. Jets"
+    },
+    {
+      "Team": "NE",
+      "FullName": "New England Patriots",
+      "ShortName": "New England"
+    },
+    {
+      "Team": "NO",
+      "FullName": "New Orleans Saints",
+      "ShortName": "New Orleans"
+    },
+    {
+      "Team": "OAK",
+      "FullName": "Oakland Raiders",
+      "ShortName": "Oakland"
+    },
+    {
+      "Team": "PHI",
+      "FullName": "Philadelphia Eagles",
+      "ShortName": "Philadelphia"
+    },
+    {
+      "Team": "PIT",
+      "FullName": "Pittsburgh Steelers",
+      "ShortName": "Pittsburgh"
+    },
+    {
+      "Team": "SD",
+      "FullName": "San Diego Chargers",
+      "ShortName": "San Diego"
+    },
+    {
+      "Team": "SF",
+      "FullName": "San Francisco 49ers",
+      "ShortName": "San Francisco"
+    },
+    {
+      "Team": "SEA",
+      "FullName": "Seattle Seahawks",
+      "ShortName": "Seattle"
+    },
+    {
+      "Team": "STL",
+      "FullName": "St. Louis Rams",
+      "ShortName": "St. Louis"
+    },
+    {
+      "Team": "TB",
+      "FullName": "Tampa Bay Buccaneers",
+      "ShortName": "Tampa Bay"
+    },
+    {
+      "Team": "TEN",
+      "FullName": "Tennessee Titans",
+      "ShortName": "Tennessee"
+    },
+    {
+      "Team": "WAS",
+      "FullName": "Washington Redskins",
+      "ShortName": "Washington"
+    }
+  ]
+}

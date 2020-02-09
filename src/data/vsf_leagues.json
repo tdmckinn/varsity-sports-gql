@@ -1,0 +1,48 @@
+{
+  "VSF_LEAGUES": [
+    {
+      "id": 1,
+      "CommissionerName": "John Doe",
+      "CommissionerId": "cb1508cd-bb0d-409a-b349-b2a18f54f848",
+      "LeagueName": "Vue Ballers",
+      "LeagueTeams": [
+        {
+          "id": 1,
+          "OwnerID": "cb1508cd-bb0d-409a-b349-b2a18f54f848"
+        },
+        {
+          "id": 3,
+          "OwnerID": "71071c6f-1d2b-4657-a617-4a3c8eca00a4"
+        }
+      ],
+      "DraftDateTime": "2018-09-21 00:08:00",
+      "DateCreated": "2018-08-17 00:08:00",
+      "IsDraftComplete": false,
+      "LeagueSettings": {
+        "LeagueID": 1,
+        "DraftType": "Snake",
+        "Scoring": "Live Standard",
+        "MaxTeams": 10,
+        "WaiverType": "rolling continous",
+        "RosterPositions": [
+          "QB",
+          "RB",
+          "RB",
+          "WR",
+          "WR",
+          "TE",
+          "W/R/T",
+          "K",
+          "DEF",
+          "BN",
+          "BN",
+          "BN",
+          "BN",
+          "BN",
+          "BN"
+        ],
+        "TradeDeadline": "2018-11-10T00:00:00.000-05:00"
+      }
+    }
+  ]
+}

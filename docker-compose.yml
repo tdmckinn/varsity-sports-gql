@@ -1,0 +1,45 @@
+version: '3'
+services:
+  postgres:
+    image: postgres:latest
+    restart: always
+    env_file:
+      ./compose.env
+    ports:
+      - 5432
+    volumes:
+    - db_data:/var/lib/postgresql/data
+
+  redis:
+    image: redis:5.0.3-alpine
+    hostname: redis
+    command: redis-server /usr/local/etc/redis/redis.conf
+    volumes:
+      - ./redis.conf:/usr/local/etc/redis/redis.conf
+    ports:
+      - 6379:6379
+
+  graphql-engine:
+    image: hasura/graphql-engine:v1.0.0-alpha34
+    ports:
+    - "8080:8080"
+    depends_on:
+    - "postgres"
+    restart: always
+    env_file:
+      ./compose.env
+
+  gql-server:
+    env_file:
+      ./compose.env
+    depends_on:
+      - postgres
+      - redis
+    build:
+      context: .
+      dockerfile: ./Dockerfile
+    ports:
+      - 4000:4000
+
+volumes:
+  db_data:
