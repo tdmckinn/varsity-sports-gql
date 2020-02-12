@@ -1,5 +1,16 @@
 {
-  "watch": ["src"],
-  "ext": "ts",
-  "exec": "ts-node -r tsconfig-paths/register ./src/main.ts"
+  "restartable": "rs",
+  "ignore": [".git", "node_modules/**/node_modules"],
+  "verbose": true,
+  "execMap": {
+    "ts": "node --require ts-node/register"
+  },
+  "watch": ["src/"],
+  "env": {
+    "NODE_ENV": "development"
+  },
+  "events": {
+    "restart": "osascript -e 'display notification \"App restarted due to:\n'$FILENAME'\" with title \"nodemon\"'"
+  },
+  "ext": "js,json,ts"
 }

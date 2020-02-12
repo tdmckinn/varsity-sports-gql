@@ -130,6 +130,52 @@ export const typeDefs = `
     success: Boolean
   }
 
+  type Venue {
+    id: Int
+    name: String
+  }
+
+  type Direction {
+    degrees: Int
+    label: String
+  }
+
+  type Wind {
+    speed: String
+    direction: Direction
+  }
+
+  type Temperature {
+    fahrenheit: Int
+    celsius: Int
+  }
+
+  type Weather {
+    type: String
+    description: String
+    wind: Wind
+    temperature: Temperature
+    humidityPercent: String
+  }
+
+  type Team {
+    id: Int
+    abbreviation: String
+  }
+
+  type Schedule {
+    id: Int
+    week: Int
+    awayTeam: Team
+    homeTeam: Team
+    broadcasters: [String]
+    weather: Weather
+    venue: Venue
+    startTime: String
+    venueAllegiance: String
+  }
+
+
   # QUERIES
   type Query {
     players: [Player]
@@ -139,7 +185,8 @@ export const typeDefs = `
     leagues: [League]
     settings: [LeagueConfigSetting]
     teams: [NFL_Team]
-    rosterPositions: [RosterPosition]
+    rosterPositions: [RosterPosition],
+    weeklyGames: [Schedule]
   }
 
   # INPUTS

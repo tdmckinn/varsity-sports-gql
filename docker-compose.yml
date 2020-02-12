@@ -19,27 +19,22 @@ services:
     ports:
       - 6379:6379
 
-  graphql-engine:
-    image: hasura/graphql-engine:v1.0.0-alpha34
-    ports:
-    - "8080:8080"
-    depends_on:
-    - "postgres"
-    restart: always
-    env_file:
-      ./compose.env
-
   gql-server:
     env_file:
       ./compose.env
     depends_on:
       - postgres
       - redis
+    volumes:
+        - .:/usr/src/app
+        - /usr/src/app/node_modules
     build:
       context: .
       dockerfile: ./Dockerfile
     ports:
       - 4000:4000
+      - 9229:9229
 
 volumes:
-  db_data:
+    db_data:
+
