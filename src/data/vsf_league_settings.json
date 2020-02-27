@@ -2,11 +2,27 @@
   "VSF_LEAGUE_SETTINGS": {
     "id": "",
     "LeagueID": "",
-    "DraftType": "",
-    "Scoring": "",
-    "MaxTeams": "",
-    "WaiverType": "",
-    "RosterPositions": "",
+    "DraftType": "Snake",
+    "Scoring": "Live Standard",
+    "MaxTeams": 10,
+    "WaiverType": "rolling continuous",
+    "RosterPositions": [
+      "QB",
+      "RB",
+      "RB",
+      "WR",
+      "WR",
+      "TE",
+      "W/R/T",
+      "K",
+      "DEF",
+      "BN",
+      "BN",
+      "BN",
+      "BN",
+      "BN",
+      "BN"
+    ],
     "TradeDeadline": ""
   }
 }

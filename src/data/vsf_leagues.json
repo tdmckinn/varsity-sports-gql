@@ -23,7 +23,7 @@
         "DraftType": "Snake",
         "Scoring": "Live Standard",
         "MaxTeams": 10,
-        "WaiverType": "rolling continous",
+        "WaiverType": "rolling continuous",
         "RosterPositions": [
           "QB",
           "RB",

@@ -84,11 +84,11 @@ export const Query = ({ entityManager, redis }) => ({
   users: () => VSF_USERS,
   settings: () => VSF_SETTINGS,
   weeklyGames: async () => {
-    const data = await fetchWeeklyGames() as {games: GameSchedule[], error: any}
-    console.log(data.games, data)
-    // if (error) {
-    //   return [];
-    // }
-    return data.games
+    const data = await fetchWeeklyGames() as {games: any, errors: any}
+    console.log("WEEKLY GAMES >>>>", data.games)
+    if (data.errors) {
+      return [];
+    }
+    return data.games.map(({schedule}: {schedule: GameSchedule}) => ({...schedule}))
   },
 })
