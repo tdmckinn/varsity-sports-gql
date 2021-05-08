@@ -28,7 +28,7 @@
     "pg": "^7.4.3",
     "reflect-metadata": "^0.1.12",
     "sass": "^1.25.0",
-    "typeorm": "^0.2.7"
+    "typeorm": "^0.2.25"
   },
   "engines": {
     "node": ">=12.15.0",
