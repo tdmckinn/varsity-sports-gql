@@ -15,7 +15,7 @@
     "start:prod": "npm build && node dist/main.js"
   },
   "dependencies": {
-    "apollo-server": "^2.10.0",
+    "apollo-server": "^2.25.3",
     "apollo-server-express": "^2.10.0",
     "axios": "^0.19.2",
     "date-fns": "^2.9.0",
